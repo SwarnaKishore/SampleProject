@@ -1,0 +1,160 @@
+.navbar-brand{
+	    font-weight: 500;
+	    font-size:20px;
+}
+
+
+.headerheight{
+background-color:#333;
+height:500px;
+ width: 100%;
+display: table;
+}
+
+
+.child{
+ 	display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    color:white;
+}
+
+
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 18px;
+    color:#C1C1C1;
+}
+
+@media(min-width:768px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 100px;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 26px;
+    }
+}
+
+
+
+
+.btn {
+    border-radius: 0;
+   
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-default {
+    border: 1px solid #16a085;
+    color: #16a085;
+    background-color: transparent;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid #16a085;
+    outline: 0;
+    color: #fff;
+    background-color: #16a085;
+}
+.colContainer{
+	height: 160px;
+	width:180px;
+	margin: 5px;background-color:#16a085;
+	 display:table !important;
+	 border-radius:5px;
+}
+.colContainer:hover{
+background-color:#555;
+cursor:pointer;
+}
+.child{
+	font-weight: 100;
+	font-size:20px;
+ 	display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+
+.colContainer .badge {
+    color: #16a085;
+    background-color: #fff;
+    font-weight: 200;
+}
+
+/*.list-group-item {
+	border:none;
+}
+*/
+.panel-heading{
+    font-weight: 500;
+}
+.list-group{
+    margin-left: 10px;
+}
+
+.list-group-item .badge{
+	font-weight: 200;
+}
+.list-group-item:hover{
+	background-color: #777;
+}
